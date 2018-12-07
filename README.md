@@ -103,4 +103,4 @@ sudo ./configure.sh
 
 Antes de executar o código novamente, é necessário reiniciar o VSS Simulator, ou o código poderá apresentar comportamentos estranhos.
 
-Cŕeditos: [José Nilton](jnolg@cin.ufpe.br) e [RobôCIn](robocin@cin.ufpe.br)
+Contato: José Nilton <jnolg@cin.ufpe.br> e RobôCIn <robocin@cin.ufpe.br>
