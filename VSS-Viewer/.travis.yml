@@ -1,0 +1,13 @@
+sudo: required
+
+language: cpp
+
+services:
+  - docker
+
+script:
+  - sudo docker build -t vss-viewer .
+  - sudo docker run vss-viewer test
+
+notifications:
+  slack: vss-sdk:UbGYb9E8B9Tkh4dHXwrdliTc

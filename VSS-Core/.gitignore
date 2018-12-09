@@ -1,0 +1,49 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# VSCode files
+*.vscode/.browse.VC.*
+
+# Protobuf files
+*.pb.cc
+*.pb.h
+*state.rs
+*command.rs
+*debug.rs
+
+# Rust files
+*target
+*.cargo
+*.lock
+
+# Executables
+*.exe
+*.out
+*.app
+
+.vscode/*
+.idea/*
+build/*
+cmake-build-debug/*

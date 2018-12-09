@@ -1,0 +1,13 @@
+sudo: required
+
+language: cpp
+
+services:
+  - docker
+
+script:
+  - sudo docker build -t vss-simulator .
+  - sudo docker run vss-simulator test
+
+notifications:
+  slack: vss-sdk:X0iosKxIV2sbIubyJ2WrTrKT

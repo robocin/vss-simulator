@@ -1,0 +1,51 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+
+# Junk Files
+.vscode/.browse.VC*
+*.pb.cc
+*.pb.h
+
+# Rust files
+*target
+*.cargo
+*.lock
+
+# Remove Junk Files
+*.vscode/.browse.VC.*
+*.pb.cc
+*.pb.h
+
+
+# Executables
+*.exe
+*.out
+*.app
+VSS-SampleCpp
+build/*
+cmake-build-debug/*
+.idea/*
+.idea/
+third-party/*

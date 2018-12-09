@@ -1,0 +1,25 @@
+/*
+ * This file is part of the VSS-SDK project.
+ *
+ * This Source Code Form is subject to the terms of the GNU GENERAL PUBLIC LICENSE,
+ * v. 3.0. If a copy of the GPL was not distributed with this
+ * file, You can obtain one at http://www.gnu.org/licenses/gpl-3.0/.
+ */
+
+package vss_debug;
+
+message Pose{
+    required float x = 1;
+    required float y = 2;
+    optional float yaw = 3;
+}
+
+message Path{
+    repeated Pose poses = 1;
+}
+
+message Global_Debug{
+    repeated Pose step_poses = 1;
+    repeated Pose final_poses = 2;
+    repeated Path paths = 3;
+}

@@ -1,0 +1,68 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include"
+                ]
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include/",
+                "${workspaceRoot}/include/",
+                "${workspaceRoot}/include/Interfaces",
+                "${workspaceRoot}/include/Core",
+                "${workspaceRoot}/include/Domain",
+                "${workspaceRoot}/include/Drawers",
+                "${workspaceRoot}/include/Communications",
+                "${workspaceRoot}/include/Framework",
+                "${workspaceRoot}/include/Cameras",
+                "/usr/include/c++/5",
+                "/usr/include/x86_64-linux-gnu/c++/5",
+                "/usr/include/linux",
+                "/usr/include/c++/5/tr1",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/c++/5/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" 
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include"
+                ]
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "c:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include"
+                ]
+            }
+        }
+    ],
+    "clang_format": {
+        "style": "file",
+        "fallback-style": "LLVM",
+        "sort-includes": false
+    },
+    "version": 3
+}
