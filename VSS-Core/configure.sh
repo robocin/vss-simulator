@@ -14,6 +14,7 @@ source scripts/install-ubuntu14-04.sh
 source scripts/install-ubuntu16-04.sh
 source scripts/install-ubuntu16-10.sh
 source scripts/install-ubuntu18-04.sh
+source scripts/install-ubuntu19-04.sh
 source scripts/install-debian9.sh
 source scripts/install-mint18-2.sh
 
@@ -35,6 +36,10 @@ INSTALL () {
 
     if [[ "$DISTRO" == "Ubuntu" ]] && [[ "$RELEASE" == "18.04" ]]; then
         INSTALL_UBUNTU_18_04;
+    fi
+
+    if [[ "$DISTRO" == "Ubuntu" ]] && [[ "$RELEASE" == "19.04" ]]; then
+        INSTALL_UBUNTU_19_04;
     fi
 
     # Debian
